@@ -1,0 +1,102 @@
+/* Write some CSS below */
+body {
+    font-family: Overpass;
+    color: #1A374D;
+    font-size: 18px;
+    background-color: #F7F7F7;
+  }
+  
+  h1, h2, h3 {
+    font-family: Chivo;
+  }
+
+  h3 {
+      font-size: 15px;
+  }
+
+  .banner {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/ch-perfil.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
+
+  }
+
+  .banner h1 {
+    color: white;
+    font-size: 80px;
+    margin: 0;
+  }
+
+  .banner h2 {
+    font-family: Montserrat;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 77px
+
+  }
+  
+  .banner p {
+    color: white;
+    margin-top: 90px;
+    font-size: 18px;
+  }
+
+  .container {
+      width: 900px;
+      margin: 60 px auto;
+  }
+
+  .container h2 {
+      padding-left: 25px;
+  }
+
+  .container h3 {
+    padding-left: 5px;
+}
+
+  .cards-foto {
+    background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    margin: 8px;
+        
+  }
+
+  .cards-foto img {
+      align-content: center;
+      width: 254px;
+      height: 185px;
+      object-fit: cover;
+      border-radius: 4px;
+
+  }
+  
+  a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s;
+    opacity: 0.7;
+  }
+  
+  a:hover {
+    color: #F7ECDE;
+  }
+
+  .footer {
+      text-align: center;
+      background-color: #406882;
+      padding: 20px;
+      color: white;
+
+  }
+
+  .cards {
+      display: grid;
+      grid: 270px 20px / repeat(3, 270px);
+      justify-content: center;
+      grid-gap: 16px;
+  }
